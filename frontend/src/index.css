@@ -1,0 +1,360 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.register{
+  background-image: url('../public//images//refront.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: 752px;
+  width: 1536px;
+  /* background-color: rgba(0,0 , 0, 0.5);
+  z-index: 2; */
+}
+
+.signup{
+  /* padding: 15px; */
+  background-color: rgba(66, 66, 66, 0.5);
+  z-index: 2;
+  height: 752px;
+  width: 1536px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signup input {
+  padding: 10px 50px 10px 10px;
+  width: 350px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+.signup button{
+  padding: 9px 0px;
+  width: 350px;
+  border-radius: 5px;
+  /* margin-bottom: 10px; */
+  font-weight: bold;
+}
+.signup button:hover{
+  box-shadow: 1px 2px 5px rgb(120, 119, 119);
+  width: 354px;
+  background-color: black;
+  color: white;
+}
+
+.signup-box{
+  text-align: center;
+  background: linear-gradient(0deg, rgba(213, 213, 213, 0.3) 0%, rgba(214, 214, 214, 0.6) 100%);
+    backdrop-filter: blur(3.5px);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    padding: 3rem 3rem;
+    border: 1px solid rgb(241, 241, 241);
+}
+.signup h1{
+  color: rgb(45, 45, 46);
+  font-size: 40px;
+}
+.signup h3{
+  margin: 2.8px;
+  color: #f6f6f6e7;
+}
+/* --------------------footer---------- */
+
+.footer{
+  margin-top: 50px;
+  text-align: center;
+  padding: 40px;
+  /* background-color: rgb(238, 206, 146); */
+
+ 
+  background: linear-gradient(to left, #ebb15b, #f0a420);
+}
+
+/* ---------------- home page ---------------- */
+
+.home .card{
+  width: 395px;
+  margin: 20px 4px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow:  0 8px 6px -6px black;
+  text-align: center;
+  border: 1px solid rgb(203, 201, 201);
+   box-shadow: 0 0 25px 0 rgba(137, 136, 136, 0.485);
+   /* background-image: url('../public//images/1685633494142.webp') ; */
+   
+}
+.card:hover{
+  width: 420px;
+  transition: 0.7s;
+}
+.card .card-body{
+  height: 180px;
+}
+.card-detail{
+  text-align: center;
+}
+.card-detail .compo{
+  text-align: center !important;
+ 
+}
+.card-detail p{
+  padding-top: 8px;
+  padding-left: 10px;
+  font-size: 18px;
+  text-align: center !important;
+  
+}
+.card-detail h6{
+  margin-top: -18px;
+  margin-right: -25px;
+  text-align: center;
+}
+ .card .rep-name a{
+ text-decoration: none;
+
+ color: rgb(209, 156, 58) ;
+}
+.home .recep-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.searchBox{
+  padding: 15px;
+  margin-left: 32%;
+  margin-bottom: 20px;
+  display: block;
+  width: 500px;
+  border: 4px solid rgb(209, 156, 58) ;
+}
+.searchBox:focus{
+  /* border: 2px solid rgb(209, 156, 58) !important ; */
+  box-shadow: none !important;
+}
+/* ---------------- addreceipe page ----------------- */
+.addreceipe .container{
+  text-align: center;
+  padding: 40px;
+}
+.addreceipe h1{
+color:  rgb(230, 184, 98);
+font-weight: 800;
+font-family:cursive;
+margin-bottom: 28px;
+}
+.addreceipe h6{
+  margin-top: -15px;
+  margin-left: -220px;
+  color: rgb(166, 166, 166);
+  /* text-align: left; */
+}
+.recepiebtn{
+  padding: 9px 0px;
+  width: 350px;
+  border-radius: 5px;
+  
+  font-weight: bold;
+}
+
+.inputBox{
+  padding: 10px 50px 10px 10px;
+  width: 520px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+/* --------------- nav ---------- */
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+ 
+}
+.nav-ul{
+  background-color: rgb(209, 156, 58);
+  padding: 5px;
+  margin-top: 0px;
+}
+.nav-ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px;
+}
+
+
+
+
+.table th, .table td{
+  border: 1px solid rgb(209, 156, 58);
+  padding: 5px;
+  padding-left: 10px;
+}
+.table .option {
+  text-align: center;
+}
+.table .option button{
+  background-color: rgb(239, 132, 39);
+  color: #fff;
+  /* height: 20px; */
+}
+.table .update{
+  background-color: rgb(255, 136, 0) !important;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* ------------ singlereceipe page --------- */
+
+.single-receipe{
+padding: 50px ;
+padding-left: 200px;
+/* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; */
+font-family: europa-regularregular, sans-serif;
+/* text-align: center; */
+}
+
+.single-receipe h1{
+  font-family: europa-boldregular, sans-serif;
+    font-weight: 700;
+  font-size: 45px;
+    line-height: 1.2;
+}
+.single-receipe h6{
+color: rgb(186, 186, 187);
+margin-top: 5px;
+}
+
+.single-receipe .img{
+    margin-left: 60px;
+  width: 520px;
+border-radius: 20px;
+    position: relative;
+    font-size: 0;
+   /* -webkit-box-shadow: 0 0 5px 2px #dfdddd;
+   -moz-box-shadow: 0 0 5px 2px #cbcbcb;
+   box-shadow:  0 0 5px 2px #cccbcb; */
+  border: 1px solid rgb(203, 201, 201);
+   box-shadow: 0 0 25px 0 rgba(137, 136, 136, 0.485);
+}
+
+.nav-icon{
+  height: 50px;
+  border-radius: 50px;
+}
+.single-extra img{
+  height: 60px;
+  margin-left: 25px;
+  
+}
+
+
+.single-receipe .rece-detail{
+  text-align: center;
+}
+.rece-detail p{
+  font-size: 50px;
+  color: rgb(120, 120, 120);
+}
+.rece-detail h5{
+  margin-top: -20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.rece-detail .col-4{
+  text-align: center;
+  margin-right: -50px;
+}
+.rece-detail .compon{
+  margin-right: -30px;
+}
+.rece-detail .calori{
+  margin-left: 30px;
+}
+.single-extra .directi{
+  padding-top: 10px;
+  /* margin-right: 40px; */
+}
+.single-extra .directi p{
+  background-color: rgb(235, 171, 51);
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+}
+.single-extra .locke{
+  padding: 20px ;
+  margin-left: 20px;
+  font-weight: 400;
+}
+.single-receipe .ingredients{
+  padding: 40px 100px;
+}
+
+.single-receipe .ingredients h2{
+  font-weight: 700;
+  font-family: europa-regularregular, sans-serif;
+  /* color: rgb(230, 184, 98); */
+}
+.single-receipe .ingredients h4{
+  padding-bottom: 30px;
+}
+
+.nutrition{
+  padding: 30px 100px;
+ 
+}
+.nutrition h2{
+  font-weight: 700;
+}
+
+.viewm{
+  text-align: center;
+  color: rgb(230, 184, 98);
+ 
+}
+
+.nutrition .circle{
+  padding-top: 40px;
+  margin: 20px;
+  border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background: #e7e7e7;
+    text-align: center;
+    
+}
+
+.steps{
+  padding: 30px 100px 10px 100px;
+  
+}
+.steps h2{
+  font-weight: 700;
+}
+.steps p{
+  padding: 10px;
+  font-size: 18px;
+}
+
+.steps img{
+  height: 50px;
+}
